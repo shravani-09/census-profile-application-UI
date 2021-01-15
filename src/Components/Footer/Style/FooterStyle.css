@@ -1,0 +1,20 @@
+#footer {
+  padding-top: 3%;
+  text-align: center;
+  color: rgb(224, 28, 28);
+  background-color: #12193b;
+  margin-top: 5%;
+}
+.footer-link-div {
+  margin-bottom: 1%;
+}
+.footer-link {
+  /* padding: 3%; */
+  /* width: 50px;
+    height: 50px; */
+  margin: 0 1%;
+  color: rgb(0, 78, 0);
+}
+.icon {
+  color: #ffffff;
+}
