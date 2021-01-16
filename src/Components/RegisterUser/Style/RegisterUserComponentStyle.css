@@ -1,6 +1,18 @@
 section {
   font-family: "Montserrat", sans-serif;
 }
+ .login{
+   /* background-color: pink;  */
+  width: 100%;
+  margin: auto;
+  display: flex;
+   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} 
+
+  
+
 .login-button {
   margin-top: 5% !important;
 }
@@ -8,16 +20,22 @@ section {
   padding: 25px;
   font-size: 20px;
 }
-.container{
-   background-color: #A8D0E6;
-  margin-top: 50px;
+.createUser_container{
+   background-color: grey;
+   width: 100%;
+  /* margin-top: 50px; */
 }
 
 h3{
   margin-top: 25px;
- color:#050564;
+ /* color:#050564;
+ font-size: xx-large; */
+ background-color: purple;
  font-weight: bolder;
+ text-align: center;
+ color: white;
 }
+
 
 form{
   margin-top: 50px;
@@ -26,7 +44,13 @@ form{
  .card{
   margin-top: 5px;
   margin-bottom: 5px;
-  
+
+ }
+ .buttons{
+   display:flex;
+   align-items: center;
+   justify-content: space-around;
+   
  }
 
  .btn{
@@ -46,6 +70,22 @@ form{
   transform: translatey(10px);
   box-shadow: none;
  }
+
+ @media screen and (max-width:600px) {
+  .btn {
+      border-radius: 30px;
+      width: 100px;
+      height: 30px;
+      white-space: normal !important;
+      word-wrap: break-word;
+  }
+  .h3{
+margin-top: 5px;
+  }
+  
+
+  
+}
  /* .full-height{
   display: block;
   height:auto;
